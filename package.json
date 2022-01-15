@@ -1,0 +1,27 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shivam",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dompurify": "^2.3.4",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "jsdom": "^19.0.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.1.6",
+    "mongoose-slug-generator": "^1.0.4",
+    "multer": "^1.4.4",
+    "string-strip-html": "^9.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
