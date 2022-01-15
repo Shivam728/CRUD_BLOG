@@ -31,6 +31,6 @@ app.use(express.static('public'));
 app.use('/blogs', blogRouter);
 
 //listen port
-app.listen(3000, function(req,res){
+app.listen(process.env.PORT || 3000, function(req,res){
     console.log("Server is listening port 3000");
 });
