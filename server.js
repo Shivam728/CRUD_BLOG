@@ -11,7 +11,7 @@ const Blog = require('./models/Blog');
 const app = express();
 
 //connect to mongoose
-mongoose.connect('mongodb://localhost/crudblog', {
+mongoose.connect('mongodb+srv://shivampandey:Shivampandey@cluster0.vg330.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
